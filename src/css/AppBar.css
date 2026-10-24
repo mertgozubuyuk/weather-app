@@ -1,0 +1,32 @@
+.app-bar {
+  width: 100%;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-icon {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  color: #5a67d8;
+  
+}
+
+.app-header {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1a202c;
+  letter-spacing: -0.5px;
+}
