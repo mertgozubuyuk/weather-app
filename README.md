@@ -1,16 +1,58 @@
-# React + Vite
+# 🌤️ WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive weather application built with **React** and **Vite** that fetches real-time weather data using the **OpenWeatherMap API**. Styled with a clean **Glassmorphism** UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 **City Search:** Search for real-time weather conditions in any city worldwide.
+- 🌡️ **Detailed Metrics:** Displays current temperature (°C), weather description, dynamic weather icon, humidity (%), and wind speed (km/h).
+- 🪟 **Glassmorphism Design:** Modern frosted-glass cards, smooth transitions, and gradient backgrounds.
+- ⏳ **Loading & Error States:** Dedicated loading spinner and user-friendly error messages when a city is not found.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React 19, Vite
+- **HTTP Client:** Axios
+- **Icons:** React Icons (`react-icons`)
+- **Styling:** Custom CSS3 (Flexbox, Glassmorphism, Keyframe Animations)
+- **API:** [OpenWeatherMap Current Weather API](https://openweathermap.org/current)
 
-## Expanding the Oxlint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mertgozubuyuk/weather-app.git
+cd weather-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+
+```env
+VITE_WEATHER_API_KEY=your_openweathermap_api_key_here
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+## 🗺️ Roadmap (Future Improvements)
+
+- [ ] 5-day / hourly weather forecast
+- [ ] Dynamic background themes based on current weather (sunny, rainy, snowy, night)
+- [ ] Geolocation support (detect user's current city automatically)
+- [ ] Favorite / recent cities list (`localStorage`)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
