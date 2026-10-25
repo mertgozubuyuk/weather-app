@@ -2,6 +2,10 @@
 
 A modern, responsive weather application built with **React** and **Vite** that fetches real-time weather data using the **OpenWeatherMap API**. Styled with a clean **Glassmorphism** UI.
 
+## 🌐 Live Demo
+
+👉 **[View Live App on Vercel](https://weather-app-wine-zeta-55.vercel.app/)**
+
 ## ✨ Features
 
 - 🔍 **City Search:** Search for real-time weather conditions in any city worldwide.
